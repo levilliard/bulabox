@@ -1,0 +1,20 @@
+// plane genrated by blender2ogre 0.6.0
+
+material coup_plane 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass coup_plane
+        {
+            ambient 0 1 1
+            diffuse 0 1 1
+            specular 0 1 1
+            emissive 0.0 0.0 0.0 1.0
+          
+            polygon_mode solid
+           
+        }
+    }
+}

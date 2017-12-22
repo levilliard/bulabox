@@ -1,0 +1,12 @@
+
+Plane
+  position: 0 0 0 
+  scale: 150 1 150
+
+Coup-Plane 
+  position: 0 0 0
+  scale: 150 50 150
+
+Sketch
+  position: 0 0 0
+  scale: 100 100 100

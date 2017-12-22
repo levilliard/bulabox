@@ -1,0 +1,322 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// toit genrated by blender2ogre 0.6.0
+
+material toit 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass toit
+        {
+            ambient 0.67 0.70 0.75 1.0
+            diffuse 0.53 0.56 0.60 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+            normalise_normals off
+        
+
+        }
+    }
+}
+// bor genrated by blender2ogre 0.6.0
+
+material bor 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass bor
+        {
+
+            texture_unit 
+            {
+                texture toit.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// door_bor genrated by blender2ogre 0.6.0
+
+material door_bor 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass door_bor
+        {
+            ambient 0.80 0.80 0.80 1.0
+            diffuse 0.64 0.64 0.64 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+
+        }
+    }
+}
+// door_in genrated by blender2ogre 0.6.0
+
+material door_in 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass door_in
+        {
+            ambient 0.01 0.011 0.01 1.0
+            diffuse 0.00 0.00 0.00 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+        }
+    }
+}
+// Material.003 genrated by blender2ogre 0.6.0
+
+material Material.003 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Material.003
+        {
+            ambient 0.00 0.00 0.00 1.0
+            diffuse 0.00 0.00 0.00 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+        }
+    }
+}
+// Material.002 genrated by blender2ogre 0.6.0
+
+material Material.002 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Material.002
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// mur1 genrated by blender2ogre 0.6.0
+
+material mur1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass mur1
+        {
+            texture_unit 
+            {
+                texture 01.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// mur2 genrated by blender2ogre 0.6.0
+
+material mur2 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass mur2
+        {
+ 
+            texture_unit 
+            {
+                texture brik.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// sol genrated by blender2ogre 0.6.0
+
+material sol 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass sol
+        {
+
+
+            texture_unit 
+            {
+                texture images1.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// Material genrated by blender2ogre 0.6.0
+
+material Material 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Material
+        {
+            ambient 0.014669524505734444 0.014669524505734444 0.014669524505734444 1.0
+            diffuse 0.011735619779461914 0.011735619779461914 0.011735619779461914 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// Material.001 genrated by blender2ogre 0.6.0
+
+material Material.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Material.001
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// ceramic genrated by blender2ogre 0.6.0
+
+material ceramic 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass ceramic
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+            texture_unit 
+            {
+                texture images3.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

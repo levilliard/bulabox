@@ -1,0 +1,16 @@
+material Plane 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Plane
+        {
+            ambient 0.0 1 0.8
+            diffuse 0.0 1 0.7
+            specular 0.5 0.5 0.5 1.0 12.5  
+   
+	    polygone_mode wireframe
+        }
+    }
+}

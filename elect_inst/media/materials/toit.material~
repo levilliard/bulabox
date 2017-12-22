@@ -1,0 +1,59 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// toit genrated by blender2ogre 0.6.0
+
+material toit 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass toit
+        {
+         
+
+            texture_unit 
+            {
+                texture images3.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// bor genrated by blender2ogre 0.6.0
+
+material bor 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass bor
+        {
+
+            texture_unit 
+            {
+                texture toit.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}

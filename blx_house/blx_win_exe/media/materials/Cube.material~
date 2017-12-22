@@ -1,0 +1,23 @@
+// Cube genrated by blender2ogre 0.6.0
+
+material cube 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Cube
+        {
+            ambient 1.0 1.0 1.0 1.0
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+          
+            polygon_mode solid
+          
+            transparent_sorting on
+
+        }
+    }
+}

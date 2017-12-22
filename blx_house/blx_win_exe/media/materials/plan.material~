@@ -1,0 +1,121 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// plan genrated by blender2ogre 0.6.0
+
+material plan 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass plan
+        {
+            ambient 0.5118025541305542 0.800000011920929 0.5549888610839844 1.0
+            diffuse 0.40944204940560525 0.6400000190734865 0.4439910954831703 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// porte genrated by blender2ogre 0.6.0
+
+material porte 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass porte
+        {
+            ambient 0.04696149379014969 0.04696149379014969 0.04696149379014969 1.0
+            diffuse 0.03756919559194438 0.03756919559194438 0.03756919559194438 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// fenetre genrated by blender2ogre 0.6.0
+
+material fenetre 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass fenetre
+        {
+            ambient 1.0 0.12182009220123291 0.5619142055511475 1.0
+            diffuse 0.800000011920929 0.09745607521319499 0.4495313711394573 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}

@@ -1,0 +1,16 @@
+
+material Material.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass Material.001
+        {
+            ambient  1 1 1
+            diffuse 1 1 1 
+            specular 0.3 0.3 0.3 1.0 
+
+        }
+    }
+}

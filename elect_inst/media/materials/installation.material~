@@ -1,0 +1,219 @@
+
+material _missing_material_
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1 1.0
+            diffuse 0.8 0.0 0.0 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.3 0.3 0.3 1.0
+        }
+    }
+}
+
+// mur genrated by blender2ogre 0.6.0
+
+material mur 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass mur
+        {
+            ambient 0.9657807946205139 0.980053722858429 0.5357626676559448 1.0
+            diffuse 0.7726246472094154 0.784042989969894 0.42861014051154456 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// door_in genrated by blender2ogre 0.6.0
+
+material door_in 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass door_in
+        {
+            ambient 0.011087600141763687 0.011087600141763687 0.011087600141763687 1.0
+            diffuse 0.008870080245585443 0.008870080245585443 0.008870080245585443 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// door_bor genrated by blender2ogre 0.6.0
+
+material door_bor 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass door_bor
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.6400000190734865 0.6400000190734865 0.6400000190734865 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// door_in1 genrated by blender2ogre 0.6.0
+
+material door_in1 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass door_in1
+        {
+            ambient 0.2597982883453369 0.10743805766105652 0.050435323268175125 1.0
+            diffuse 0.20783863377330647 0.08595044740960667 0.040348259215776006 1.0
+            specular 0.5 0.5 0.5 1.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+
+        }
+    }
+}
+// ceramic genrated by blender2ogre 0.6.0
+
+material ceramic 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass ceramic
+        {
+ 
+            texture_unit 
+            {
+                texture images3.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// ceramic.001 genrated by blender2ogre 0.6.0
+
+material ceramic.001 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass ceramic.001
+        {
+ 
+            texture_unit 
+            {
+                texture images3.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
+// toit genrated by blender2ogre 0.6.0
+
+material toit 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass toit
+        {
+            ambient 1 0.5 0
+            texture_unit 
+            {
+                texture toit.jpg
+                tex_address_mode wrap
+                scale 1.0 1.0
+                colour_op modulate
+            }
+        }
+    }
+}
