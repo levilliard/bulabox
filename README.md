@@ -1,5 +1,5 @@
 # bulabox
-3D Lab Project
+3D Lab Project,
 Jan 2014
 -------------------------------------------------------------------------
 
@@ -10,11 +10,11 @@ Context:
   
    Here is the project site: http://bulabox.blogspot.com/
   
-   The tools used:
-     1. C ++, Ogre3D, Qt
-     2. IDE: Qt Creator
-     3. Modeling Tools: Blender, Blender2Ogre
-     4. Operating System: Fedora 20
+   ### The tools used:
+     ### 1. C ++, Ogre3D, Qt
+     ### 2. IDE: Qt Creator
+     ### 3. Modeling Tools: Blender, Blender2Ogre
+     ### 4. Operating System: Fedora 20
   
    Licence:
      Do what you want with this project.
