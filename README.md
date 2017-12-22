@@ -2,27 +2,21 @@
 3D Lab Project
 -------------------------------------------------------------------------
 
-[Fr]
+Context:
 
-Contexte:
-  Ce projet a ete realise pendant mes etudes en Genie Electronique a la Faculte Des sciences (FDS), Universite d'Etat d'Haiti (UEH). 
-  L'objectif c'etait de creer un logiciel 3D permettant a un utilisateur de visualiser un batiment en 3D. L'utilisateur poura naviger 
-  dans la scene a partir d'un robot. Pour ce meme batiment, le logiciel presente les plans de coupe et les plans de base. J'avais cru que 
-  cela pourait etre utile aux entreprises ou un ingenieur de genie civil en donnant au client ce logiciel pour visualiser tous les aspects 
-  du batiment qui sera contruit. 
+  This project was realized during my studies in Electronics Engineering at the Faculty of Sciences (FDS), State University of Haiti (UEH).
+   The goal was to create a 3D software allowing a user to visualize a building in 3D. The user uses a robot to navigate in the scene. For this same building, the software presents the cutting planes and the basic plans. I had thought  it could be useful to companies or a civil engineer by giving the client this software to visualize all the aspects  of the building to be built.
   
-  Voici le site du projet: http://bulabox.blogspot.com/
+   Here is the project site: http://bulabox.blogspot.com/
   
-  Les outils utilises:
-    1. Langage et Bibliotheque: C++, Ogre3D, Qt
-    2. IDE: Qt Creator
-    3. Outils de Modelisation: Blender, Blender2Ogre
-    4. Systeme d'Exploitation: Fedora 20
+   The tools used:
+     1. C ++, Ogre3D, Qt
+     2. IDE: Qt Creator
+     3. Modeling Tools: Blender, Blender2Ogre
+     4. Operating System: Fedora 20
   
-  Licence:
-    Faite ce que vous voulez avec.
+   Licence:
+     Do what you want with this project.
     
-  Contact:
-    levilliard@gmail.com
-  
-
+   Contact:
+     levilliard@gmail.com
